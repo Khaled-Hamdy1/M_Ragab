@@ -1,0 +1,49 @@
+<!DOCTYPE htm html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="../styles/login.css" />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.3.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <h1 class="login__title">Welcome back</h1>
+      <form class="login__form">
+        <label for="username">ُEmail</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Enter your email"
+          class="login__form__input"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="********"
+          class="login__form__input"
+        />
+        <div class="he50he50">
+          <div>
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+          <a href="#" class="login__form__text__link">Forgot password?</a>
+        </div>
+        <button type="submit" class="login__form__button">Sign In</button>
+        <button type="submit" class="login__form__button google">
+          <i class="fab fa-google"></i>Sign In with Google
+        </button>
+        <article style="display: flex; flex-wrap: wrap;">
+          <p class="login__form__text">Don't have an account?</p>
+          <a href="sign-up.html" class="login__form__text__link">Sign up</a>
+        </article>
+      </form>
+    </div>
+  </body>
+</html>
